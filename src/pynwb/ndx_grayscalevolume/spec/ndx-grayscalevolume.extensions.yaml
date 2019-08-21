@@ -1,0 +1,16 @@
+groups:
+- neurodata_type_def: GrayscaleVolume
+  neurodata_type_inc: NWBDataInterface
+  doc: type for storing volumetric (3D) image
+  datasets:
+  - name: data
+    dtype: float
+    dims:
+    - x
+    - y
+    - z
+    shape:
+    - null
+    - null
+    - null
+    doc: data of image
