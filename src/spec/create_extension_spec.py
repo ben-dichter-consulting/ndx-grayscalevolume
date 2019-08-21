@@ -12,7 +12,7 @@ def main():
     GrayscaleVolume = NWBGroupSpec(
         doc='type for storing volumetric (3D) image',
         neurodata_type_def='GrayscaleVolume',
-        neurodata_type_inc='NWBDataInterface')
+        neurodata_type_inc='NWBDataInterface',)
 
     GrayscaleVolume.add_dataset(name='data',
                                 doc='data of image',
