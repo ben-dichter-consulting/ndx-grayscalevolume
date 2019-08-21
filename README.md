@@ -8,7 +8,7 @@
 
 ### Python Installation
 ```bash
-pip install ndx-grayscalevolume
+pip install git+https://github.com/ben-dichter-consulting/ndx-grayscalevolume.git
 ```
 
 ### Python Usage
@@ -17,8 +17,9 @@ pip install ndx-grayscalevolume
 from ndx_grayscalevolume import GrayscaleVolume
 from datetime import datetime
 from pynwb import NWBFile
+import numpy as np
 
 nwb = NWBFile('session_description', 'identifier', datetime.now().astimezone())
 
-spectrum = GrayscaleVolume(name, data)
+volumetric_image = GrayscaleVolume(name='My 3D image', data=np.zeros((3,4,5)))
 ```
