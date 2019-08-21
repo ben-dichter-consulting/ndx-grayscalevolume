@@ -1,4 +1,4 @@
-from pynwb.spec import NWBNamespaceBuilder, NWBGroupSpec
+from pynwb.spec import NWBNamespaceBuilder, NWBGroupSpec, NWBAttributeSpec
 from export_spec import export_spec
 
 
@@ -12,7 +12,11 @@ def main():
     GrayscaleVolume = NWBGroupSpec(
         doc='type for storing volumetric (3D) image',
         neurodata_type_def='GrayscaleVolume',
-        neurodata_type_inc='NWBDataInterface',)
+        neurodata_type_inc='NWBDataInterface',
+        attributes=[NWBAttributeSpec(name='resolution',
+                                     doc='pixels / cm',
+                                     dtype='float',
+                                     required=False)])
 
     GrayscaleVolume.add_dataset(name='data',
                                 doc='data of image',
