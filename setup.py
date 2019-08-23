@@ -7,7 +7,7 @@ from shutil import copy2
 
 setup_args = {
     'name': 'ndx-grayscalevolume',
-    'version': '0.0.1',
+    'version': '0.0.2',
     'description': '3D grayscale image.',
     'author': 'Luiz Tauffer and Ben Dichter',
     'author_email': 'ben.dichter@gmail.com',

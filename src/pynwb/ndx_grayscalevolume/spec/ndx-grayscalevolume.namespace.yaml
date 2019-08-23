@@ -8,4 +8,4 @@ namespaces:
     neurodata_types:
     - NWBDataInterface
   - source: ndx-grayscalevolume.extensions.yaml
-  version: 0.0.1
+  version: 0.0.2
