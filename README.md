@@ -8,7 +8,7 @@
 
 ### Python Installation
 ```bash
-pip install git+https://github.com/ben-dichter-consulting/ndx-grayscalevolume.git
+pip install ndx-grayscalevolume
 ```
 
 ### Python Usage
