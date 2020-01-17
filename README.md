@@ -1,7 +1,5 @@
 # ndx-grayscalevolume Extension for NWB:N
 
-[![PyPI version]()
-
 [Python Installation](#python-installation)
 
 [Python Usage](#python-usage)
