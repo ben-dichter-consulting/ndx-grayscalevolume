@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup_args = {
     'name': 'ndx-grayscalevolume',
-    'version': '0.0.2',
+    'version': '0.1.0',
     'description': '3D grayscale image.',
     'long_description': long_description,
     'long_description_content_type="text/markdown",
