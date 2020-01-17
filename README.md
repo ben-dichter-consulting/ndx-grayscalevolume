@@ -1,9 +1,5 @@
 # ndx-grayscalevolume Extension for NWB:N
 
-[Python Installation](#python-installation)
-
-[Python Usage](#python-usage)
-
 ### Python Installation
 ```bash
 pip install ndx-grayscalevolume
