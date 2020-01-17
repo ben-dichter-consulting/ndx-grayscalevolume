@@ -5,14 +5,19 @@ import os
 from setuptools import setup, find_packages
 from shutil import copy2
 
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup_args = {
     'name': 'ndx-grayscalevolume',
     'version': '0.0.2',
     'description': '3D grayscale image.',
+    'long_description': long_description,
+    'long_description_content_type="text/markdown",
     'author': 'Luiz Tauffer and Ben Dichter',
     'author_email': 'ben.dichter@gmail.com',
-    'url': '',
-    'license': '',
+    'url': 'https://github.com/ben-dichter-consulting/ndx-grayscalevolume',
+    'license': 'BSD3',
     'install_requires': ['pynwb'],
     'packages': find_packages('src/pynwb'),
     'package_dir': {'': 'src/pynwb'},
