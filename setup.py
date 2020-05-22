@@ -18,7 +18,7 @@ setup_args = {
     'author_email': 'ben.dichter@gmail.com',
     'url': 'https://github.com/ben-dichter-consulting/ndx-grayscalevolume',
     'license': 'BSD3',
-    'install_requires': ['pynwb'],
+    'install_requires': ['pynwb>1.0.2'],
     'packages': find_packages('src/pynwb'),
     'package_dir': {'': 'src/pynwb'},
     'package_data': {'ndx_grayscalevolume': [
